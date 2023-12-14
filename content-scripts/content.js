@@ -1,4 +1,4 @@
-if (window.history.length == 1) {
+if (!document.referrer || window.history.length == 1) {
     const BACK_BUTTON_CODE = 8
     var recordedButtons = 0
 
